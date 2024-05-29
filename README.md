@@ -33,14 +33,17 @@ cd FLAN-T5_Inference_and_Tuning_Guide
 Ensure you have access to GPUs for efficient model training and inference.
 For the full fine tune notebook (part 2) I used 2 * T4 accelerator and for PEFT (part 3) one T4 or P100 would suffice
 
-Usage
-Basic Experiments
+## Usage
+## Basic Experiments
 The first notebook, demonstrates how to call the FLAN-T5 model and basic command lines. It also includes examples of 0-shot to few-shot inference.
 
 
-Full Fine-Tuning
+## Full Fine-Tuning
 In the second notebook, we use the Transformers library to fully fine-tune FLAN-T5-Large on two T4 GPUs. This section covers data preparation, model training, and evaluation on the knkarthick/dialogsum text summary dataset.
 
 
-Parameter-Efficient Fine-Tuning (PEFT)
+## Parameter-Efficient Fine-Tuning (PEFT)
 The third notebook, employs the PEFT library for parameter-efficient fine-tuning on FLAN-T5-Large and XL models using a single P100 GPU. This approach reduces computational overhead while maintaining performance.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Noah-Himselff/FLAN-T5_Inference_and_Tuning_Guide/blob/main/LICENSE) file for more details.
